@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furniture FAQs</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background: #f8f9fa; font-family: 'Segoe UI', sans-serif; }
+    .sidebar {
+      background: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .sidebar button {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+    .active-tab {
+      background: #fcb900 !important;
+      color: #fff !important;
+    }
+    .faq-header {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #064420;
+      color: #fff;
+      padding: 40px 0;
+    }
+    footer a { color: #fff; text-decoration: none; }
+    .footer-bottom {
+      background: #fcb900;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-success" href="#">ZSC</a>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="pro3.html">Shop</a></li>
+      <li class="nav-item"><a class="nav-link" href="pro2.html">Categories</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="pro4.html">Contact Us</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Page Title -->
+<div class="container my-5">
+  <div class="text-center">
+    <h2 class="fw-bold">zamalek</h2>
+    <p><a href="#">Home</a> / FAQs</p>
+  </div>
+
+  <div class="row mt-5">
+    <!-- Sidebar -->
+    <div class="col-md-3">
+      <div class="sidebar">
+        <button class="btn active-tab">General Information</button>
+        <button class="btn btn-light">Ordering & Shipping</button>
+        <button class="btn btn-light">Returns & Exchanges</button>
+        <button class="btn btn-light">Payments & Discounts</button>
+        <button class="btn btn-light">Account & Profile</button>
+      </div>
+    </div>
+
+    <!-- FAQ Accordion -->
+    <div class="col-md-9">
+      <div class="faq-header">
+        <div class="accordion" id="faqAccordion">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
+                How can I place an order?
+              </button>
+            </h2>
+            <div id="q1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">You can place an order directly through our website by adding items to the cart and checking out.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-success text-white" type="button" data-bs-toggle="collapse" data-bs-target="#q2">
+                What payment methods do you accept?
+              </button>
+            </h2>
+            <div id="q2" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">We accept credit/debit cards, PayPal, and other secure payment gateways.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">
+                Can I track my order after it’s been placed?
+              </button>
+            </h2>
+            <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Yes, you will receive a tracking number via email once your order is shipped.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4">
+                Do you offer customer support?
+              </button>
+            </h2>
+            <div id="q4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Yes, our support team is available 24/7 via phone, email, or chat.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5">
+                What is your return policy?
+              </button>
+            </h2>
+            <div id="q5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">We accept returns within 30 days of delivery if items are unused and in original packaging.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q6">
+                How to Create Account?
+              </button>
+            </h2>
+            <div id="q6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Click on the "Sign Up" button at the top right corner and fill in your details.</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Info Bar -->
+<div class="container text-center my-5">
+  <div class="row">
+    <div class="col-md-4">🚚 Free Shipping <br><small>Free shipping for order above $180</small></div>
+    <div class="col-md-4">💳 Flexible Payment <br><small>Multiple secure payment options</small></div>
+    <div class="col-md-4">📞 24x7 Support <br><small>We support online all days.</small></div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h5>Furniture.</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div>
+          <a href="#">FB</a> | <a href="#">IG</a> | <a href="#">TW</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h6>Company</h6>
+        <a href="#">About Us</a><br>
+        <a href="#">Blog</a><br>
+        <a href="#">Contact Us</a><br>
+        <a href="#">Career</a>
+      </div>
+      <div class="col-md-3">
+        <h6>Customer Services</h6>
+        <a href="#">My Account</a><br>
+        <a href="#">Track Your Order</a><br>
+        <a href="#">Return</a><br>
+        <a href="#">FAQ</a>
+      </div>
+      <div class="col-md-3">
+        <h6>Contact Info</h6>
+        <p>+123-456-789</p>
+        <p>example@mail.com</p>
+        <p>8502 Preston Rd. Inglewood, Maine 98380</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="footer-bottom">© 2024 Furniture. All Rights Reserved.</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
